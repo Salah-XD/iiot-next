@@ -1,13 +1,13 @@
 import React from 'react';
 
-export const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
-    <nav className='bg-slate-200'>
+    <nav className='bg-[#0D162B]'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
             <div className='flex items-center justify-between h-16'>
                 <div className='flex items-center'>
                     <div className='flex-shrink-0'>
-                        <a href="/" className='text-white'>jfgiug</a>
+                        <a href="/" className='text-white font-semibold text-3xl'>Luzon</a>
                     </div>
                 </div>
                 <div className='hidden md:block'>
@@ -21,6 +21,7 @@ export const Navbar = () => {
             </div>
         </div>
     </nav>
-  );
+  );    
 }
-export default Navbar
+
+export default Navbar;
