@@ -12,7 +12,7 @@ export const Navbar = () => {
                 </div>
                 <div className='hidden md:block'>
                     <div className='ml-4 flex items-center space-x-2'>
-                        <a href="/" className='text-green-600 font-thin'>Connected</a>
+                        <a href="/" className='text-green-600 font-regular'>Connected</a>
                         <div className="flex items-center justify-center h-screen ">
                             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                         </div>

@@ -42,10 +42,8 @@ function Linechart() {
   }, [])
   return (
     <div>
-      {/* line chart */}
-      <h1 className="w-[110px] mx-auto mt-10 text-xl font-semibold capitalize ">Chart</h1>
-      <div className="w-[1100px] h-screen flex mx-auto my-auto">
-        <div className='border border-gray-200 pt-0 rounded-xl w-[400px] h-[400px] shadow-xl'>
+      <div className="w-[1100px] flex p-5">
+        <div className='border border-gray-200 pt-0 rounded-xl w-[400px] h-[250px] shadow-xl'>
           <canvas id='myChart'></canvas>
         </div>
       </div>

@@ -1,6 +1,7 @@
-import Linechart from './pages/linechart'
-import Doughnut from './pages/doughnut'
+import Linechart from './pages/Linechart'
 import Navbar from './pages/navbar'
+import Doughnutchart1 from './pages/Doughnutchart1';
+import Doughnutchart2 from './pages/Doughnutchart2';
 
 
 export default function Home() {
@@ -8,7 +9,8 @@ export default function Home() {
     <div>
       <Navbar/>
       <Linechart/>  
-      <Doughnut/>
+      <Doughnutchart1/>
+      <Doughnutchart2/>
     </div>
   );
 }
