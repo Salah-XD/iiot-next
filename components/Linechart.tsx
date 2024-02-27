@@ -1,13 +1,14 @@
 "use client"
 
-import { useEffect } from "react"
-import { Chart } from "chart.js";
+import React, { useEffect } from "react";
+import Chart from "chart.js";
 
+interface LinechartProps {}
 
-function Linechart() {
+const Linechart: React.FC<LinechartProps> = () => {
   useEffect(() => {
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var myChart = new Chart(ctx, {
+    const ctx = document.getElementById('myChart')?.getContext('2d') as CanvasRenderingContext2D;
+    const myChart = new Chart(ctx, {
       type: 'line',
       data: {
         labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
@@ -35,11 +36,11 @@ function Linechart() {
           // borderColor: "#c45850",
           // backgroundColor: "#d78f89",
           // fill: false,
-        }
-        ]
+        }]
       },
     });
-  }, [])
+  }, []);
+
   return (
     <div>
       <div className="w-[400px] flex">
@@ -48,7 +49,7 @@ function Linechart() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Linechart;
