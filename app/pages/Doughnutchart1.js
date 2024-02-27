@@ -4,7 +4,7 @@ import { useEffect } from "react"
 import { Chart } from "chart.js";
 function Doughnutchart1() {
     useEffect(() => {
-        var ctx = document.getElementById('myChart').getContext('2d');
+        var ctx = document.getElementById('myChart2').getContext('2d');
         let num= 70
         var myChart = new Chart(ctx, {
             type: 'doughnut',
@@ -43,7 +43,7 @@ function Doughnutchart1() {
         <div>
             <div className="w-[400px] flex">
                 <div className='border border-gray-200 pt-0 rounded-xl w-[400px] h-[250px] shadow-xl pb-2'>
-                    <canvas id='myChart'></canvas>
+                    <canvas id='myChart2'></canvas>
                 </div>
             </div>
         </div>

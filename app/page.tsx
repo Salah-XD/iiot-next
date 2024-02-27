@@ -10,10 +10,12 @@ export default function Home() {
     <div>
       <Navbar/>
       <div className='flex gap-7 p-3 overflow-hidden'>
-        <Linechart/>
         <Doughnutchart1/>
+        <Linechart/>
+
         <Doughnutchart2/>
       </div>
+      
       <Buttons/>
     </div>
   );

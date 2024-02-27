@@ -7,7 +7,7 @@ export const Navbar = () => {
             <div className='flex items-center justify-between h-16'>
                 <div className='flex items-center'>
                     <div className='flex-shrink-0'>
-                        <a href="/" className='text-white'></a>
+                        <a href="/" className='text-white'>jfgiug</a>
                     </div>
                 </div>
                 <div className='hidden md:block'>
